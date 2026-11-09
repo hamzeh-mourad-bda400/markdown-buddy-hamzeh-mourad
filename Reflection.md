@@ -1,4 +1,4 @@
-AI Assistance Declaration: I used ChatGPT (OpenAI GPT-6, 2026-11-08) for documentation outlines, wording, formatting suggestions, and draft example code. Prompts used: see Appendix.md. Verification methods: [TO COMPLETE AFTER MANUAL CHECKS]. All final calculations are done by myself. I am responsible for the accuracy and originality of this work.
+AI Assistance Declaration: I used ChatGPT (OpenAI GPT-6, 2026-11-08) for documentation outlines, wording, formatting suggestions, and draft example code. Prompts used: see Appendix.md. Verification methods: Executed the R script in Posit Cloud, reviewed the HTML documentation, checked GitHub Markdown formatting, and independently verified revenue calculations using Google Sheets. All final calculations are done by myself. I am responsible for the accuracy and originality of this work.
 
 
 # Reflection — Draft for Student Review
