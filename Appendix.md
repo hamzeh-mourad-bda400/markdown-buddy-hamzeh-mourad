@@ -28,7 +28,7 @@ Based on the uploaded assignment, the assistant drafted a synthetic retail sales
 ## Manual Verification Record — Student to Complete
 - GitHub Markdown guide read: [date / notes]
 - Real tidyverse repository compared: [repository URL / 2 observations]
-- README previewed on GitHub: [date / issues fixed]
+- README previewed on GitHub: [2026-11-09 / README preview reviewed on GitHub. Headings, lists, and R code block displayed correctly. No formatting issues observed.]
 - Script run in R or Posit Cloud: [2026-11-09 / Successfully executed in Posit Cloud. Bakery CAD 612, Beverages CAD 210, Snacks CAD 273. Bar chart displayed correctly.]
 - Rmd knitted successfully: [2026-11-09 / HTML report rendered successfully and reviewed in Chrome. Code, revenue table, and bar chart displayed.]
 - Primary calculation in Sheets: [cells / results]
