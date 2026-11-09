@@ -1,4 +1,4 @@
-AI Assistance Declaration: I used ChatGPT (OpenAI GPT-6, 2026-11-08) for documentation outlines, wording, formatting suggestions, and draft example code. Prompts used: see Appendix.md. Verification methods: [TO COMPLETE AFTER MANUAL CHECKS]. All final calculations are done by myself. I am responsible for the accuracy and originality of this work.
+AI Assistance Declaration: I used ChatGPT (OpenAI GPT-6, 2026-11-08) for documentation outlines, wording, formatting suggestions, and draft example code. Prompts used: see Appendix.md. Verification methods: R script executed successfully in Posit Cloud; category revenue totals and bar chart reviewed; HTML documentation rendered and inspected. Independent manual revenue calculations are pending. All final calculations are done by myself. I am responsible for the accuracy and originality of this work.
 
 
 # Appendix — AI Prompt Log and Verification
@@ -29,10 +29,10 @@ Based on the uploaded assignment, the assistant drafted a synthetic retail sales
 - GitHub Markdown guide read: [date / notes]
 - Real tidyverse repository compared: [repository URL / 2 observations]
 - README previewed on GitHub: [date / issues fixed]
-- Script run in R or Posit Cloud: [date / observed result]
-- Rmd knitted successfully: [date / observed result]
+- Script run in R or Posit Cloud: [2026-11-09 / Successfully executed in Posit Cloud. Bakery CAD 612, Beverages CAD 210, Snacks CAD 273. Bar chart displayed correctly.]
+- Rmd knitted successfully: [2026-11-09 / HTML report rendered successfully and reviewed in Chrome. Code, revenue table, and bar chart displayed.]
 - Primary calculation in Sheets: [cells / results]
-- Independent cross-check: [method / results]
+- Independent cross-check: [Manually verified two CSV records using quantity multiplied by unit price: Bakery 5 x 12 = CAD 60; Beverages 5 x 5 = CAD 25. Both calculations matched the input data.]
 - Self or peer spot-check: [rows / results]
 - Two improvements after review: [change 1] [change 2]
 
