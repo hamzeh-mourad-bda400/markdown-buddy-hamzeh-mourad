@@ -1,0 +1,44 @@
+---
+title: "Retail Sales Analysis — Script Documentation"
+output: html_document
+---
+
+AI Assistance Declaration: I used ChatGPT (OpenAI GPT-6, 2026-11-08) for documentation outlines, wording, formatting suggestions, and draft example code. Prompts used: see Appendix.md. Verification methods: [TO COMPLETE AFTER MANUAL CHECKS]. All final calculations are done by myself. I am responsible for the accuracy and originality of this work.
+
+
+# Purpose
+This document explains and demonstrates `sales_analysis.R`, which summarizes fictional retail sales using base R.
+
+## Inputs
+The input file is `synthetic_sales.csv`, with columns `date`, `category`, `quantity`, and `unit_price`. All records are synthetic.
+
+## Method
+Revenue is calculated per record as quantity multiplied by unit price, then summed by category.
+
+```{r load-data}
+sales <- read.csv("synthetic_sales.csv", stringsAsFactors = FALSE)
+stopifnot(all(c("date", "category", "quantity", "unit_price") %in% names(sales)))
+head(sales)
+```
+
+```{r calculate-revenue}
+sales$revenue <- sales$quantity * sales$unit_price
+category_totals <- aggregate(revenue ~ category, data = sales, FUN = sum)
+category_totals <- category_totals[order(category_totals$category), ]
+category_totals
+```
+
+## Outputs
+The output includes a category revenue table and the following chart.
+
+```{r chart, fig.width=7, fig.height=4}
+barplot(category_totals$revenue, names.arg = category_totals$category,
+        main = "Synthetic Revenue by Category", ylab = "Revenue (CAD)",
+        col = "steelblue")
+```
+
+## Verification
+Before submission, run the script independently and knit this document. Compare the category totals with manual calculations and note the actual results in `Appendix.md`.
+
+## Limitations
+These records are invented for education and do not represent real retail transactions.
