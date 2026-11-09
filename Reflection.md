@@ -1,7 +1,7 @@
 AI Assistance Declaration: I used ChatGPT (OpenAI GPT-6, 2026-11-08) for documentation outlines, wording, formatting suggestions, and draft example code. Prompts used: see Appendix.md. Verification methods: Executed the R script in Posit Cloud, reviewed the HTML documentation, checked GitHub Markdown formatting, and independently verified revenue calculations using Google Sheets. All final calculations are done by myself. I am responsible for the accuracy and originality of this work.
 
 
-# Reflection — Draft for Student Review
+# Reflection — BDA400 Assignment 1
 
 **Important:** The assignment PDF asks for three reflection questions but does not provide their exact wording. The three prompts below are proposed placeholders, **not verified instructor questions**. Replace them if your instructor supplies the originals, and revise answers to describe your actual experience.
 
