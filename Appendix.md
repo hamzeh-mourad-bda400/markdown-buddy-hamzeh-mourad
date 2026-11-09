@@ -33,7 +33,7 @@ Based on the uploaded assignment, the assistant drafted a synthetic retail sales
 - Rmd knitted successfully: [2026-11-09 / HTML report rendered successfully and reviewed in Chrome. Code, revenue table, and bar chart displayed.]
 - Primary calculation in Sheets: [2026-11-09 / Imported synthetic_sales.csv into Google Sheets. Calculated revenue in E2:E31 using quantity multiplied by unit_price. Used SUMIF in H2:H4 to calculate category totals: Bakery CAD 612, Beverages CAD 210, and Snacks CAD 273. Grand total CAD 1,095. All three category totals matched the RStudio results.]
 - Independent cross-check: [Manually verified two CSV records using quantity multiplied by unit price: Bakery 5 x 12 = CAD 60; Beverages 5 x 5 = CAD 25. Both calculations matched the input data.]
-- Self or peer spot-check: [rows / results]
+- Self or peer spot-check: [2026-11-09 / Checked sales records against Google Sheets calculations. Bakery: 5 x 12 = CAD 60; Beverages: 5 x 5 = CAD 25; Snacks: 2 x 7 = CAD 14. All three calculations matched the spreadsheet results.]
 - Two improvements after review: [change 1] [change 2]
 
 ## Ethical Disclosure
